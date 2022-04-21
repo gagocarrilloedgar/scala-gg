@@ -1,4 +1,4 @@
-package nuwe.scala_bootstrap
+package tv.codely.scala_bootstrap
 
 import org.scalatest._
 import org.scalatest.Matchers._
