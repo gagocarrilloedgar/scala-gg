@@ -1,6 +1,7 @@
 /** ********* PROJECT INFO ******************/
 name := "Scala bootstrap"
 version := "1.0"
+scalaVersion := "2.12.15"
 
 /** ********* PROJECT SETTINGS ******************/
 Configuration.settings

@@ -1,0 +1,339 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "scala-bootstrap-test",
+        "directory": "/Users/edgargagocarrillo/Desktop/Edgar/codelytv/scala-gg/scala-bootstrap",
+        "workspaceDir": "/Users/edgargagocarrillo/Desktop/Edgar/codelytv/scala-gg/scala-bootstrap",
+        "sources": [
+            "/Users/edgargagocarrillo/Desktop/Edgar/codelytv/scala-gg/scala-bootstrap/src/test-2.12",
+            "/Users/edgargagocarrillo/Desktop/Edgar/codelytv/scala-gg/scala-bootstrap/src/test",
+            "/Users/edgargagocarrillo/Desktop/Edgar/codelytv/scala-gg/scala-bootstrap/src/test/java",
+            "/Users/edgargagocarrillo/Desktop/Edgar/codelytv/scala-gg/scala-bootstrap/target/scala-2.12/src_managed/test"
+        ],
+        "dependencies": [
+            "scala-bootstrap"
+        ],
+        "classpath": [
+            "/Users/edgargagocarrillo/Desktop/Edgar/codelytv/scala-gg/scala-bootstrap/.bloop/scala-bootstrap/scala-2.12/classes",
+            "/Users/edgargagocarrillo/.sbt/boot/scala-2.12.7/lib/scala-library.jar",
+            "/Users/edgargagocarrillo/.ivy2/cache/com.github.nscala-time/nscala-time_2.12/jars/nscala-time_2.12-2.22.0.jar",
+            "/Users/edgargagocarrillo/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.10.1.jar",
+            "/Users/edgargagocarrillo/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-2.2.0.jar",
+            "/Users/edgargagocarrillo/.ivy2/cache/com.lihaoyi/pprint_2.12/jars/pprint_2.12-0.5.6.jar",
+            "/Users/edgargagocarrillo/.ivy2/cache/com.lihaoyi/fansi_2.12/jars/fansi_2.12-0.2.7.jar",
+            "/Users/edgargagocarrillo/.ivy2/cache/com.lihaoyi/sourcecode_2.12/jars/sourcecode_2.12-0.1.8.jar",
+            "/Users/edgargagocarrillo/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.1.1.jar",
+            "/Users/edgargagocarrillo/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.1.1.jar",
+            "/Users/edgargagocarrillo/.sbt/boot/scala-2.12.7/lib/scala-reflect.jar",
+            "/Users/edgargagocarrillo/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.2.0.jar",
+            "/Users/edgargagocarrillo/.ivy2/cache/org.scalamock/scalamock_2.12/jars/scalamock_2.12-4.4.0.jar"
+        ],
+        "out": "/Users/edgargagocarrillo/Desktop/Edgar/codelytv/scala-gg/scala-bootstrap/.bloop/scala-bootstrap",
+        "classesDir": "/Users/edgargagocarrillo/Desktop/Edgar/codelytv/scala-gg/scala-bootstrap/.bloop/scala-bootstrap/scala-2.12/test-classes",
+        "resources": [
+            "/Users/edgargagocarrillo/Desktop/Edgar/codelytv/scala-gg/scala-bootstrap/src/test/resources",
+            "/Users/edgargagocarrillo/Desktop/Edgar/codelytv/scala-gg/scala-bootstrap/target/scala-2.12/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.7",
+            "options": [
+                "-deprecation",
+                "-feature",
+                "-unchecked",
+                "-Xlint",
+                "-Ywarn-dead-code",
+                "-Ywarn-unused",
+                "-Xcheckinit"
+            ],
+            "jars": [
+                "/Users/edgargagocarrillo/.sbt/boot/scala-2.12.7/lib/scala-library.jar",
+                "/Users/edgargagocarrillo/.sbt/boot/scala-2.12.7/lib/scala-compiler.jar",
+                "/Users/edgargagocarrillo/.sbt/boot/scala-2.12.7/lib/scala-reflect.jar",
+                "/Users/edgargagocarrillo/.sbt/boot/scala-2.12.7/lib/scala-xml_2.12-1.0.6.jar"
+            ],
+            "analysis": "/Users/edgargagocarrillo/Desktop/Edgar/codelytv/scala-gg/scala-bootstrap/target/streams/test/bloopAnalysisOut/$global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-oDF"
+                        ]
+                    },
+                    {
+                        "args": [
+                            "-u",
+                            "target/test-reports"
+                        ],
+                        "framework": {
+                            "names": [
+                                "org.scalatest.tools.Framework",
+                                "org.scalatest.tools.ScalaTestFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Users/edgargagocarrillo/Library/Caches/Coursier/arc/https/github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11%252B28/OpenJDK11-jdk_x64_mac_hotspot_11_28.tar.gz/jdk-11+28/Contents/Home",
+                "options": [
+                    "-Duser.dir=/Users/edgargagocarrillo/Desktop/Edgar/codelytv/scala-gg/scala-bootstrap",
+                    "-Duser.timezone=UTC"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.7",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/edgargagocarrillo/.sbt/boot/scala-2.12.7/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.nscala-time",
+                    "name": "nscala-time_2.12",
+                    "version": "2.22.0",
+                    "artifacts": [
+                        {
+                            "name": "nscala-time_2.12",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/com.github.nscala-time/nscala-time_2.12/jars/nscala-time_2.12-2.22.0.jar"
+                        },
+                        {
+                            "name": "nscala-time_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/com.github.nscala-time/nscala-time_2.12/srcs/nscala-time_2.12-2.22.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "joda-time",
+                    "name": "joda-time",
+                    "version": "2.10.1",
+                    "artifacts": [
+                        {
+                            "name": "joda-time",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.10.1.jar"
+                        },
+                        {
+                            "name": "joda-time",
+                            "classifier": "sources",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.10.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.joda",
+                    "name": "joda-convert",
+                    "version": "2.2.0",
+                    "artifacts": [
+                        {
+                            "name": "joda-convert",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-2.2.0.jar"
+                        },
+                        {
+                            "name": "joda-convert",
+                            "classifier": "sources",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-2.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "pprint_2.12",
+                    "version": "0.5.6",
+                    "artifacts": [
+                        {
+                            "name": "pprint_2.12",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/com.lihaoyi/pprint_2.12/jars/pprint_2.12-0.5.6.jar"
+                        },
+                        {
+                            "name": "pprint_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/com.lihaoyi/pprint_2.12/srcs/pprint_2.12-0.5.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "fansi_2.12",
+                    "version": "0.2.7",
+                    "artifacts": [
+                        {
+                            "name": "fansi_2.12",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/com.lihaoyi/fansi_2.12/jars/fansi_2.12-0.2.7.jar"
+                        },
+                        {
+                            "name": "fansi_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/com.lihaoyi/fansi_2.12/srcs/fansi_2.12-0.2.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "sourcecode_2.12",
+                    "version": "0.1.8",
+                    "artifacts": [
+                        {
+                            "name": "sourcecode_2.12",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/com.lihaoyi/sourcecode_2.12/jars/sourcecode_2.12-0.1.8.jar"
+                        },
+                        {
+                            "name": "sourcecode_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/com.lihaoyi/sourcecode_2.12/srcs/sourcecode_2.12-0.1.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest_2.12",
+                    "version": "3.1.1",
+                    "artifacts": [
+                        {
+                            "name": "scalatest_2.12",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.1.1.jar"
+                        },
+                        {
+                            "name": "scalatest_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalactic",
+                    "name": "scalactic_2.12",
+                    "version": "3.1.1",
+                    "artifacts": [
+                        {
+                            "name": "scalactic_2.12",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.1.1.jar"
+                        },
+                        {
+                            "name": "scalactic_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.7",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/Users/edgargagocarrillo/.sbt/boot/scala-2.12.7/lib/scala-reflect.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.12.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.12",
+                    "version": "1.2.0",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.12",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.2.0.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/srcs/scala-xml_2.12-1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalamock",
+                    "name": "scalamock_2.12",
+                    "version": "4.4.0",
+                    "artifacts": [
+                        {
+                            "name": "scalamock_2.12",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/org.scalamock/scalamock_2.12/jars/scalamock_2.12-4.4.0.jar"
+                        },
+                        {
+                            "name": "scalamock_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/edgargagocarrillo/.ivy2/cache/org.scalamock/scalamock_2.12/srcs/scalamock_2.12-4.4.0-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
